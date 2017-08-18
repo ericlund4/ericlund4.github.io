@@ -1,3 +1,42 @@
-.navbar{
-    background: none;
+html,
+body {
+    height: 100% !important;
+    width: 100% !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid {
+    height: 500% !important;
+    width: 100% !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section {
+    height: 20% !important;
+    width: 100% !important;
+}
+
+#landing.section {
+    background-image: url(../img/landing.jpg);
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about.section {
+    margin-right: 4rem;
+    margin-left: 4rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+h1,
+h3 {
+    color: white;
 }
