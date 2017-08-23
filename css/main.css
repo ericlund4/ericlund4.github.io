@@ -8,34 +8,41 @@ body {
 }
 
 @keyframes example {
-    /*
-    visibility: visible;
-    animation-name: slideRight;
-    -webkit-animation-name: slideRight;
-    animation-duration: 1.5s;
-    -webkit-animation-duration: 1.5s;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-timing-function: ease-in-out; 
-*/
+    from {
+        transform: translateX(15rem);
+        opacity: 0;
+    }
 }
 
 .container-fluid {
+/*
     height: 400% !important;
     width: 100% !important;
+*/
     margin: 0px;
     padding: 0px;
 }
 
 .section {
-    height: 25%;
+/*    height: 25%;*/
     padding: 1.5rem;
     box-shadow: 0 1px 2px #aaa;
     background: white;
     margin: 0 1rem 1rem;
     border-radius: 3px;
+/*
     animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 1s;
+    animation-play-state: paused;
+*/
 }
+
+/*
+div:hover {
+    -webkit-animation-play-state: running;  Chrome, Safari, Opera 
+    animation-play-state:running;
+}
+*/
 
 .landing {
     background-image: url(../img/landing.jpg);
@@ -50,7 +57,13 @@ body {
     align-items: center;
 }
 
+.skills-content i{
+    font-size: 76px;
+    margin: 4px 8px;
+    position: relative;
+}
+
 h1,
 h3 {
-    color: white;
+/*    color: white;*/
 }
